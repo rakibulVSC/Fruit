@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisy ui link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <header>
+    <!-- nav style start  -->
+      <div class="container mx-auto lg:px-24 px-8 my-8">
+        <div class="navbar bg-red-400 rounded-full px-8">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                 <li><a>About</a></li>
+                 <li><a>Shop</a></li>
+               <li><a>Contacts</a></li>
+               </ul>
+              </div>
+              <div class=" space-x-4 hidden lg:flex lg:flex-row text-white text-lg font-semibold">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Shop</a>
+                <a href="#">Contacts</a>
+
+              </div>
+              <div class="navbar-center hidden lg:flex text-center justify-center mg-auto mx-12">
+                <img src="../images/logo.png" alt="">
+                <h6 class="ml-4 text-2xl font-semibold text-white justify-center text-center py-4">Fruit Burst</h6>
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+
+            </div>
+            <div class="navbar-end">
+                <div class="hidden lg:flex bg-white items-center justify-between px-6 py-3 rounded-full">
+                    <input type="text" placeholder="search">
+                    <img src="../images/Vector.jpg" alt="">
+                </div>
+            </div>
+          </div>
+      </div>
+      <!-- nav bar style end  -->
+
+      <!-- banner style start  -->
+    <div class="container mx-auto lg:px-24 px-8">
+        <!-- slide 1 -->
+        <div class="carousel w-full ">
+         <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient   (45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(../images/banner1.png)] h-[70vh] flex items-center justify-center">
+                <div class="flex flex-col justify-center ">
+                    <h1 class="text-6xl text-white font-bold text-center mg-auto">Exotic tastes at your <br> doorstep</h1>
+                    <p class="text-white w-2/3 text-center justify-center mg-auto mx-20 mt-2">We supply highly quality organic products</p>
+                    <button class="btn bg-red-400 border-none text-white mx-auto mt-6">Shop Now</button>
+                </div>
+            
+             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+            </div> 
+         </div>
+        </div>
+    </div>
+
+      <!-- banner style end  -->
+
+   </header>
+    <main>
+
+   </main>
+   <footer>
+    
+   </footer>
+</body>
+</html>
